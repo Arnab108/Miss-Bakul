@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Lora', serif;
+    width: 100%;
+}
+hr{
+    margin: 5px auto;
+    color: grey;
+    border-style: dotted none none;
+    width: 5%;
+    border-width: 10px;
+}
+    /******************* header section ******************/
+
+.header{
+    background-color: black;
+    padding: 20px;
+}
+.header img{
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: white;
+}
+.name{
+   color: burlywood;
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 20px;
+}
+.name h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    font-weight: normal;
+}
+.name h3{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+/************************** intro section *********************/
+
+.intro{
+    background-color: navajowhite;
+    padding: 40px;
+}
+.intro img{
+   width: 40%;
+}
+
+/************************** middle section *********************/
+
+.middle{
+    background-color: lightblue;
+    padding-bottom: 30px;
+}
+.middle h2{
+    margin: 0;
+    color: darkred;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 2rem;
+}
+.middle h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+.middle p{
+    line-height: 2;
+}
+.design{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+.design img{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.hobby{
+    width: 60%;
+    margin: 0 auto 20px;
+    padding: 2rem;
+    text-align: left;
+}
+.hobby img{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+/************************** like section *********************/
+
+.like{
+    background-color: black;
+}
+.like img{
+    height: 200px;
+    width: 300px;
+}
+.like h3{
+    color: orangered;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 50px;
+
+}
+.like h4{
+    color: azure;
+    margin-bottom: 20px;
+}
+.yamaha{
+    display: inline-block;
+    margin: 0 5px 0;
+}
+.honda{
+    display: inline-block;
+    margin: 0 5px 0;
+}
+.suzuki{
+    display: inline-block;
+    margin: 0 5px 0;
+}
+.ducati{
+    display: inline-block;
+    margin: 0 5px 0;
+}
+
+/************************** contact section *********************/
+
+.contact{
+    background-color: teal;
+    padding: 30px;
+}
+.contact h2{
+    color: whitesmoke;
+    font-size: 200ox;
+}
+.contact h4{
+    color: whitesmoke;
+    font-weight: normal;
+}
+.contact button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 12px;
+    color: rgb(2, 0, 124);
+    background-color:antiquewhite;
+    font-weight: bold;
+    border: none;
+}
+.contact button:hover{
+    background-color: cyan;
+}
+
+/************************** Links section *********************/
+
+.links{
+    background-color: darkorange;
+    padding: 20px;
+}
+.links a:link{
+padding: 2px 5px;
+margin: 0 5px;
+text-decoration: none;
+}
+.links a:hover{
+    color: whitesmoke;
+}
+.links p{
+    color: antiquewhite;
+}
